@@ -36,7 +36,7 @@ jobs:
         password: ${{secrets.PASSWORD }}
 
         # Docker repository to tag the image with
-        repository: jenkins-docker
+        repository: jenkins
         # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
         tags: lastest
         # Automatically tags the built image with the git reference as per the readme
