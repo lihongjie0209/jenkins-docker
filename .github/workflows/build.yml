@@ -33,7 +33,7 @@ jobs:
         # Username used to log in to a Docker registry. If not set then no login will occur
         username: lihongjie0209
         # Password or personal access token used to log in to a Docker registry. If not set then no login will occur
-        password: ${{secrets.PASSWORD }}
+        password: ${{ secrets.PASSWORD }}
 
         # Docker repository to tag the image with
         repository: jenkins
