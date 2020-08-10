@@ -49,3 +49,4 @@ pipeline-stage-step
 blueocean
 blueocean-autofavorite
 gitlab-plugin
+configuration-as-code
